@@ -1,0 +1,256 @@
+{
+  "profile": {
+    "name": "Saranya T",
+    "title": "Computer Science Engineering Student",
+    "tagline": "AI & Data Science | Building data-driven solutions for real-world problems",
+    "summary": "Computer Science Engineering student at Rajalakshmi Institute of Technology (CGPA: 9.22) with strong expertise in Artificial Intelligence, Data Science, Analytics, and Web Development. Experienced through 9+ internships, multiple projects, research, and hackathons. Winner of a National-Level Hackathon, Best Paper Award recipient, and Top Performer across internship programs. Passionate about building AI-driven solutions to solve real-world problems.",
+    "location": "Tamil Nadu, India",
+    "email": "saranyatd2006@gmail.com",
+    "phone": "+91 9363605684",
+    "linkedin": "https://linkedin.com/in/saranya-t-48562832b",
+    "github": "https://github.com/Saranya2006-py",
+    "stats": [
+      { "label": "CGPA", "value": "9.22", "suffix": "" },
+      { "label": "Internships", "value": "9", "suffix": "+" },
+      { "label": "Certifications", "value": "50", "suffix": "+" },
+      { "label": "Hackathon Wins", "value": "1", "suffix": "st" }
+    ]
+  },
+  "skills": {
+    "Languages": ["Python", "Java", "C", "JavaScript", "SQL"],
+    "Web Technologies": ["HTML", "CSS", "JavaScript"],
+    "AI & Data Science": ["Machine Learning", "Data Analysis", "Data Visualization", "Predictive Analytics"],
+    "Tools & Platforms": ["Git", "GitHub", "VS Code", "Excel"],
+    "Core Concepts": ["Data Structures & Algorithms (DSA)", "OOP", "Problem Solving"]
+  },
+  "education": [
+    {
+      "id": "edu-1",
+      "degree": "B.E. Computer Science and Engineering",
+      "institution": "Rajalakshmi Institute of Technology, Chennai",
+      "duration": "2024 - 2028",
+      "detail": "CGPA: 9.22 (Till 3rd Semester)"
+    },
+    {
+      "id": "edu-2",
+      "degree": "Class XII",
+      "institution": "St. Mary's Matriculation Higher Secondary School",
+      "duration": "",
+      "detail": "93%"
+    },
+    {
+      "id": "edu-3",
+      "degree": "Class X",
+      "institution": "St. Mary's Matriculation Higher Secondary School",
+      "duration": "",
+      "detail": "96%"
+    }
+  ],
+  "internships": [
+    {
+      "id": "int-1",
+      "role": "Data Science & Analytics Intern",
+      "company": "Tamizhan Skills",
+      "mode": "Virtual",
+      "duration": "Mar 2026",
+      "points": [
+        "Performed data analysis and visualization using Python and Excel.",
+        "Worked on analytics workflows and reporting techniques."
+      ]
+    },
+    {
+      "id": "int-2",
+      "role": "Web Development Intern",
+      "company": "Saiket Systems",
+      "mode": "Virtual",
+      "duration": "Feb 2026",
+      "points": [
+        "Developed responsive web application components using HTML, CSS, and JavaScript."
+      ]
+    },
+    {
+      "id": "int-3",
+      "role": "AI Intern",
+      "company": "Alfido Technologies",
+      "mode": "Virtual",
+      "duration": "Jan 2026",
+      "points": [
+        "Implemented machine learning algorithms for prediction and classification tasks.",
+        "Worked on model training, evaluation and performance optimization."
+      ]
+    },
+    {
+      "id": "int-4",
+      "role": "Data Science Intern",
+      "company": "Sabudh Foundation",
+      "mode": "Virtual",
+      "duration": "Jul 2025 - Dec 2025",
+      "points": [
+        "Worked on Python, SQL, and machine learning workflows.",
+        "Recognized as Top Performer in Python, SQL, and DSA modules."
+      ]
+    },
+    {
+      "id": "int-5",
+      "role": "AI Intern",
+      "company": "Centre for Artificial Intelligence, Rajalakshmi Institute of Technology",
+      "mode": "On-Campus",
+      "duration": "Jun 2025 - Jul 2025",
+      "points": [
+        "Worked on AI-based Traffic Management Systems.",
+        "Co-authored a research paper on intelligent traffic management solutions."
+      ]
+    },
+    {
+      "id": "int-6",
+      "role": "AI & Data Analytics Intern",
+      "company": "Edunet Foundation",
+      "mode": "Virtual",
+      "duration": "2025",
+      "points": [
+        "Worked on AI, Data Analytics concepts and industry-oriented projects.",
+        "Strengthened analytical thinking and practical implementation skills."
+      ]
+    },
+    {
+      "id": "int-7",
+      "role": "Web Development Intern",
+      "company": "Cognifyz Technologies",
+      "mode": "Virtual",
+      "duration": "2025",
+      "points": [
+        "Developed front-end web interfaces and responsive applications.",
+        "Gained hands-on experience in modern web technologies."
+      ]
+    },
+    {
+      "id": "int-8",
+      "role": "AI Intern",
+      "company": "Codsoft",
+      "mode": "Virtual",
+      "duration": "2025",
+      "points": [
+        "Developed machine learning models for classification and prediction.",
+        "Worked on data preprocessing, model building and evaluation."
+      ]
+    },
+    {
+      "id": "int-9",
+      "role": "Green Intern",
+      "company": "1M1B (Million for One Billion)",
+      "mode": "Virtual",
+      "duration": "Feb 2025",
+      "points": [
+        "Worked on sustainability-focused innovation initiatives.",
+        "Recognized as Top Performer and Top Intern."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj-1",
+      "title": "AgriNexus",
+      "subtitle": "Resilient Agricultural Supply Chain Platform",
+      "description": "AI-powered platform for pre-harvest planning, crop failure mitigation, alternative sources, and data-driven recovery solutions for agricultural supply chains.",
+      "tags": ["AI", "Supply Chain", "Predictive Analytics"],
+      "link": "",
+      "featured": true
+    },
+    {
+      "id": "proj-2",
+      "title": "SocioShield AI",
+      "subtitle": "Socio Economic Vulnerability Prediction System",
+      "description": "AI platform to analyze socio-economic data and predict vulnerability levels. Received the Best Paper Award for its research and implementation.",
+      "tags": ["AI", "Data Analysis", "Research"],
+      "link": "",
+      "award": "Best Paper Award",
+      "featured": true
+    },
+    {
+      "id": "proj-3",
+      "title": "IntelliEnergy AI",
+      "subtitle": "Energy Analytics Platform",
+      "description": "Monitors energy usage patterns and generates insights using data analytics and visualization techniques.",
+      "tags": ["Data Visualization", "Analytics"],
+      "link": "",
+      "featured": true
+    },
+    {
+      "id": "proj-4",
+      "title": "EcoGuard AI",
+      "subtitle": "Invasive Species Detection",
+      "description": "AI-based environmental monitoring solution developed during the NXTGEN 24 Hours Hackathon.",
+      "tags": ["AI", "Computer Vision", "Hackathon"],
+      "link": "",
+      "featured": false
+    },
+    {
+      "id": "proj-5",
+      "title": "TN Thittam",
+      "subtitle": "AI Welfare Assistance Platform",
+      "description": "AI-based system for government scheme eligibility prediction and citizen support guidance.",
+      "tags": ["AI", "Public Welfare"],
+      "link": "",
+      "featured": false
+    },
+    {
+      "id": "proj-6",
+      "title": "Logicore",
+      "subtitle": "Military Food Logistics Management System",
+      "description": "Logistics and inventory management platform for military food supply optimization, demand forecasting, and resource allocation.",
+      "tags": ["Logistics", "Forecasting"],
+      "link": "",
+      "featured": false
+    },
+    {
+      "id": "proj-7",
+      "title": "AI-Powered Fake Detection Platform",
+      "subtitle": "TechSprint 6.0 National Hackathon — 1st Place",
+      "description": "Developed during the TechSprint 6.0 National Level Hackathon. Secured first place among national participants.",
+      "tags": ["AI", "Hackathon Winner"],
+      "link": "",
+      "award": "1st Place",
+      "featured": true
+    }
+  ],
+  "achievements": [
+    "Winner - TechSprint 6.0 National Level Hackathon",
+    "Best Paper Award - SocioShield AI",
+    "Top Performer - Sabudh Foundation",
+    "Top Performer & Top Intern - 1M1B Green Internship",
+    "Co-authored Research Paper on AI-Based Traffic Management Systems",
+    "Presented paper at SRM: \"Automated Bug Triage and Prioritization Systems for Efficient Software Management\"",
+    "Completed 50+ industry certifications in AI, Data Science, Automation, and emerging technologies",
+    "Active participation in 20+ technical events, hackathons & innovation challenges"
+  ],
+  "research": [
+    {
+      "title": "AI-Based Traffic Management Systems",
+      "detail": "Co-authored during internship at Centre for Artificial Intelligence, RIT."
+    },
+    {
+      "title": "Automated Bug Triage and Prioritization Systems for Efficient Software Management",
+      "detail": "Presented as a technical paper at SRM Institute of Science and Technology."
+    }
+  ],
+  "trainings": [
+    { "name": "Microsoft AI Skills Program - AI & Cloud Fundamentals", "duration": "Mar 2026" },
+    { "name": "Infosys Springboard Pragati Path to Future - Cohort 3 (AI & Emerging Technologies Learning Program)", "duration": "Feb 2026" },
+    { "name": "1M1B Future Leaders Green Internship - Top Performer & Top Intern Recognition", "duration": "Jun 2025 - Jul 2025" },
+    { "name": "Winner - TechSprint 6.0 National Level Hackathon", "duration": "Jan 2026" }
+  ],
+  "certifications": [
+    "UiPath Certified Professional Automation Developer Associate",
+    "IBM SkillsBuild Certifications",
+    "Oracle Academy Certification",
+    "CDAC + IIT Roorkee - Quantum Computing",
+    "Infosys Springboard & Simplilearn Courses"
+  ],
+  "hackathons": [
+    "Winner - TechSprint 6.0 National Level Hackathon",
+    "Participated in NXTGEN 24 Hours Hackathon and developed EcoGuard AI",
+    "Participated in Energize Intercollege Technical Event and developed IntelliEnergy AI",
+    "Received Best Paper Award for SocioShield AI project",
+    "Participated in technical workshops, AI/ML events, and collaborative innovation programs"
+  ]
+}

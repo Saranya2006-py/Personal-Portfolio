@@ -1,0 +1,164 @@
+/* ==========================================================================
+   Design tokens — "Field Notes" system
+   A research-lab-notebook aesthetic: deep navy ground, warm paper cards,
+   signal-amber + data-teal accents, monospace for metrics/labels.
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+:root {
+  /* Color */
+  --ink: #0B1120;          /* deep navy ground */
+  --ink-soft: #141C2E;     /* slightly lighter navy for panels */
+  --ink-line: #25324A;     /* hairline borders on dark */
+  --paper: #F7F5F0;        /* warm paper card background */
+  --paper-dim: #ECE8DE;    /* paper shadow tone */
+  --graphite: #1C2230;     /* primary text on paper */
+  --graphite-soft: #4A5268;/* secondary text on paper */
+  --fog: #AAB3C5;          /* secondary text on navy */
+  --fog-dim: #6B7690;      /* tertiary text on navy */
+  --amber: #E8A33D;        /* signal accent: highlights, CTAs */
+  --amber-bright: #F4B85C;
+  --teal: #3FA796;         /* secondary accent: tags, links */
+  --teal-bright: #5BC2AF;
+  --rose: #C0625A;         /* tertiary accent: awards/alerts, used sparingly */
+
+  /* Type */
+  --font-display: 'Fraunces', serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'JetBrains Mono', 'SF Mono', Consolas, monospace;
+
+  /* Layout */
+  --max-width: 1180px;
+  --radius-sm: 4px;
+  --radius-md: 10px;
+  --radius-lg: 18px;
+
+  /* Motion */
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+body {
+  margin: 0;
+  background: var(--ink);
+  color: var(--fog);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  color: var(--paper);
+  margin: 0;
+  font-weight: 600;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: var(--amber);
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button {
+  font-family: inherit;
+}
+
+::selection {
+  background: var(--amber);
+  color: var(--ink);
+}
+
+:focus-visible {
+  outline: 2px solid var(--amber);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 28px;
+}
+
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--amber);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.eyebrow::before {
+  content: '';
+  width: 18px;
+  height: 1px;
+  background: var(--amber);
+  display: inline-block;
+}
+
+.section {
+  padding: 110px 0;
+  position: relative;
+}
+
+.section-head {
+  margin-bottom: 56px;
+  max-width: 640px;
+}
+
+.section-title {
+  font-size: clamp(28px, 4vw, 42px);
+  line-height: 1.15;
+  margin-top: 14px;
+}
+
+.section-title em {
+  font-style: italic;
+  color: var(--amber);
+}
+
+.section-sub {
+  color: var(--fog-dim);
+  font-size: 16px;
+  margin-top: 14px;
+  line-height: 1.6;
+  max-width: 540px;
+}
+
+@media (max-width: 720px) {
+  .section {
+    padding: 72px 0;
+  }
+}
